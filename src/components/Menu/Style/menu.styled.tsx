@@ -19,7 +19,7 @@ export const ContainerMenuStyled = Styled.div`
   margin: auto;
   display: flex;  
   justify-content: space-between;
-  
+  transition: 7s ease-in-out;
 `;
 
 export const Internalization = Styled.h1`
@@ -46,11 +46,8 @@ export const LiStyled = Styled.li`
   font-size: 50px;
   cursor: pointer;
   transition: 7s ease-in-out;
-  opacity: 0.1;
   transition: all 1s ease-in-out;
-  
   &:hover {
-    opacity: 1;
     transition: all 0.5s ease-in-out;
     animation: ${LiKeyFrame} 2s linear infinite;
     color: #EC0101;
